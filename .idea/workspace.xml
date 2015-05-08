@@ -34,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19607843" vertical-offset="9615" max-vertical-offset="10545">
-              <caret line="651" column="27" selection-start-line="651" selection-start-column="27" selection-end-line="651" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.27450982" vertical-offset="465" max-vertical-offset="10590">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -413,7 +413,11 @@
       <created>1431077612670</created>
       <updated>1431077612670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fork removed">
+      <created>1431077702654</created>
+      <updated>1431077702654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,7 +469,8 @@
     <MESSAGE value="Initial version forked" />
     <MESSAGE value="Names updated" />
     <MESSAGE value="Counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Counter" />
+    <MESSAGE value="Fork removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fork removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -473,8 +478,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19607843" vertical-offset="9615" max-vertical-offset="10545">
-          <caret line="651" column="27" selection-start-line="651" selection-start-column="27" selection-end-line="651" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.27450982" vertical-offset="465" max-vertical-offset="10590">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
