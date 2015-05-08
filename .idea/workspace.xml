@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc04e3f0-b70c-47e1-8a60-ed57e5308df6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/automatedtestingpyramid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/automatedtestingpyramid_example.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66928107" vertical-offset="4858" max-vertical-offset="12225">
-              <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.627451" vertical-offset="0" max-vertical-offset="12240">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,6 +103,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -437,7 +439,11 @@
       <created>1431078156891</created>
       <updated>1431078156891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Testing pyramid">
+      <created>1431095121523</created>
+      <updated>1431095121523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -490,7 +496,8 @@
     <MESSAGE value="Names updated" />
     <MESSAGE value="Counter" />
     <MESSAGE value="Fork removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fork removed" />
+    <MESSAGE value="Testing pyramid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing pyramid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -498,8 +505,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66928107" vertical-offset="4858" max-vertical-offset="12225">
-          <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.627451" vertical-offset="0" max-vertical-offset="12240">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
