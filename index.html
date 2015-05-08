@@ -125,6 +125,7 @@
         <li>It needs a specific running environment</li>
         <li>It's hard to write</li>
         <li>It's difficult to debug</li>
+        <li>They are fragile</li>
         <li>It's hard to keep the tests up-to-date</li>
     </ul>
 </section>
@@ -320,6 +321,24 @@
             </a>
         </li>
     </ul>
+</section>
+
+<section>
+    <h2 style="font-size: 1.8em">Custom element selectors <code>by.placeholder</code></h2>
+
+    <h3 style="font-size:1em">In your tests setup</h3>
+    <pre class="mb-30"><code> by.addLocator('placeholder', function (placeholderText, opt_parentElement) {
+        var using = opt_parentElement || document,
+        placeholders = using.querySelectorAll('input:not([disabled])');
+
+        return Array.prototype.filter.call(placeholders, function (input) {
+        return input.getAttribute('placeholder') == placeholderText;
+        });
+        });</code></pre>
+    <h3 style="font-size:1em">In your test</h3>
+    <pre class="mb-30"><code>element( by.placeholder('Full Name') );</code></pre>
+    <h3 style="font-size:1em">In your application</h3>
+    <pre><code>&lt;input placeholder="Full Name" /></code></pre>
 </section>
 
 <section>
@@ -636,6 +655,30 @@
 </section>
 
 <section>
+    <h2 class="slide-header">Run your tests in parallel</h2>
+
+    <p>Your config.js</p>
+<pre><code data-trim>exports.config = {
+    capabilities: {
+    shardTestFiles: true,
+    maxInstances: 5
+    }
+    };
+</code></pre>
+    <p>Execution time for 200 tests on the real project drops from 20 to 6 minutes</p>
+
+</section>
+
+<section>
+    <h2 class="slide-header">Rerun failed tests</h2>
+    <p>This <a href="https://github.com/angular/protractor/issues/1190">feature</a> is requested by community but not ready yet.</p>
+    <br/>
+    <p><strong>Proposed solution</strong></p>
+    <p>Parse the output<pre><code data-trim>/\[launcher\].*(#\w+.)*failed /</code></pre></p>
+    <p>Rerun failed tests<pre><code data-trim>protractor ... --specs=$listOfSpecFiles</code></pre></p>
+</section>
+
+<section>
     <h2 class="slide-header" style="margin-top: 30px;font-size:3em">"But, I want to use Protractor in a non-AngularJS
         app"</h2>
 
@@ -691,6 +734,17 @@
 </section>
 
 <section>
+    <h2 class="slide-header">The dark side of E2E testing (solutions)</h2>
+    <ul>
+        <li>It needs a specific running environment<br/><strong>(node.js, protractor, web-driver)</strong></li>
+        <li>It's hard to write <strong>(use page objects)</strong></li>
+        <li>It's difficult to debug <strong>(use elementexplorer)</strong></li>
+        <li>They are fragile <strong>(rerun failed tests)</strong></li>
+        <li>It's hard to keep the tests up-to-date<br/><strong>(test functionality, not data)</strong></li>
+    </ul>
+</section>
+
+<section>
     <h2 class="slide-header">Final thoughts</h2>
     <ul>
         <li>E2E testing is a complement to Unit testing</li>
@@ -722,7 +776,8 @@
         <a href="https://github.com/vladradz">@vladradz</a>
     </p>
 
-    <p>Thanks to <a href="https://github.com/ramonvictor">@ramonvictor</a> and <a href="https://github.com/rafaelbattesti">@rafaelbattesti</a> contributions!</p>
+    <p>Thanks to <a href="https://github.com/ramonvictor">@ramonvictor</a> and <a
+            href="https://github.com/rafaelbattesti">@rafaelbattesti</a> contributions!</p>
 </section>
 </div>
 </div>
